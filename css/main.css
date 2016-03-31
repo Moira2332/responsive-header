@@ -36,8 +36,9 @@ header h1 {
   text-align: center;
 }
 
-header ul {
+nav ul {
   list-style-type: none;
+  font-size: 1.125rem;
 }
 
 nav a {
@@ -45,7 +46,7 @@ nav a {
   color: #6c8fe0;
   line-height: 2;
   font-size: 1.125rem;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 nav {
@@ -110,11 +111,7 @@ nav a:hover {
     line-height: 1.5;
   }
 
-  h1 {
-    text-align: left;
-  }
-
   nav {
-    float: left;
+    float: right;
   }
 }
